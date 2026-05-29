@@ -174,19 +174,19 @@ ______________Scopes____________________
 // // console.log(this);
 
 // // function chai(){
-// //     let username = "hitesh"
+// //     let username = "purus"
 // //     console.log(this.username);
 // // }
 
 // // chai()
 
 // // const chai = function () {
-// //     let username = "hitesh"
+// //     let username = "purus"
 // //     console.log(this.username);
 // // }
 
 // const chai =  () => {
-//     let username = "hitesh"
+//     let username = "purus"
 //     console.log(this);
 // }
 
@@ -201,7 +201,7 @@ ______________Scopes____________________
 
 // // const addTwo = (num1, num2) => ( num1 + num2 )
 
-// const addTwo = (num1, num2) => ({username: "hitesh"})
+// const addTwo = (num1, num2) => ({username: "purus"})
 
 
 // console.log(addTwo(3, 4))
