@@ -151,6 +151,10 @@
     div.style.color = 'black'
     div.style.padding = '20px'
     div.style.textAlign = 'center'
-    div.innerText = "<h1> This is a new div </h1>"
+    //div.innerText = "This is a new div"
+    const adText = document.createTextNode("This is a new div")
+    div.appendChild(adText)
+
+    document.body.appendChild(div)
   </script>
  </html>
