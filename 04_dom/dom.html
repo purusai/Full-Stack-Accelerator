@@ -222,5 +222,21 @@
     addLanguageOptimized('Java')
     addLanguageOptimized('C++')
     addLanguageOptimized('Go')
+
+
+    //Edit
+    const secondLanguage = document.querySelector("li:nth-child(2)")
+    // secondLanguage.innerHTML = "MOJO"
+    const newli = document.createElement('li')
+    newli.textContent = "MOJO"
+    secondLanguage.replaceWith(newli)
+
+    // Edit
+    const firstLanguage = document.querySelector("li:first-child")
+    firstLanguage.outerHTML = "<li>FOMO</li>"
+
+    // remove
+    const lastLanguage = document.querySelector("li:last-child")
+    lastLanguage.remove()
  </script>
  </html>
