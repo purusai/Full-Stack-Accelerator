@@ -199,11 +199,28 @@
  </body>
 
  <script>
+    // add language
     function addLanguage(langName){
      const li = document.createElement('li')
      li.innerHTML = `${langName}`
      document.querySelector('.language').appendChild(li)
-     
+
     }
+    addLanguage('Python')
+    addLanguage('Typescript')
+
+
+
+    // add language with optimization
+    function addLanguageOptimized(langName){
+       const li = document.createElement('li')
+       li.appendChild(document.createTextNode(langName))
+       document.querySelector('.language').appendChild(li)
+
+    }
+
+    addLanguageOptimized('Java')
+    addLanguageOptimized('C++')
+    addLanguageOptimized('Go')
  </script>
  </html>
