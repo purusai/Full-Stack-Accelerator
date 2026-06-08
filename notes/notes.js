@@ -35,3 +35,13 @@
 //After React
 // React is not a complete solution in most cases --> no SEO , browser render oof js , no routing
 // frameworks: Next.js, Remix, Gatsby, Astro
+
+
+
+
+// react -->react-dom --> web
+//       --> react-native --> mobile
+
+// npm : node package manager,      
+// npx : node package executer,  npx create-react-app
+
