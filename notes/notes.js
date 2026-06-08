@@ -22,7 +22,7 @@
 // Topics to learn in React?
 // state or UI manipulation, JSX
 // component reusability(props)
-// How to propaate change(hooks)
+// How to propagate change(hooks)
 
 
 // Additional Addon to React
