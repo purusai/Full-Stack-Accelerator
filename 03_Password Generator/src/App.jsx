@@ -75,7 +75,7 @@ function App() {
               type="checkbox"
               defaultChecked={numberAllowed}
               id="numberInput"
-              className='cursor-pointer accent-pink-500'
+              className='cursor-pointer accent-pink-700'
               onChange={(e) => {
                    setNumberAllowed((prev) => !prev);
               }}
@@ -89,7 +89,7 @@ function App() {
               type="checkbox"
               defaultChecked={charAllowed}
               id="numberInput"
-              className='cursor-pointer accent-pink-500'
+              className='cursor-pointer accent-pink-700'
               onChange={(e) => {
                    setCharAllowed((prev) => !prev);
               }}
