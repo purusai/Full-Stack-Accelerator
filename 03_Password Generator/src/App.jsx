@@ -70,7 +70,19 @@ function App() {
          <label htmlFor='numberInput'>Numbers</label>
       </div>
         
-        <div></div>
+        <div className='flex items-center py-3 gap-x-1'>
+         <input 
+              type="checkbox"
+              defaultChecked={charAllowed}
+              id="numberInput"
+              className='cursor-pointer accent-pink-500'
+              onChange={(e) => {
+                   setCharAllowed((prev) => !prev);
+              }}
+         
+         />
+         <label htmlFor='characterInput'>Characters</label>
+      </div>
 
      </div>
     </div>
