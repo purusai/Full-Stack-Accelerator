@@ -12,7 +12,10 @@ const Login = () => {
       value={username}
       onChange={(e) => setUsername(e.target.value)}
       placeholder="username" />
-      <input type="text" placeholder="password" />
+      <input type="text" 
+      value={password}
+      onChange={(e) => setUsername(e.target.value)}
+      placeholder="password" />
     </div>
   )
 }
