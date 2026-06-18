@@ -36,22 +36,22 @@ export default function Home() {
                     </div>
                 </div>
 
-                {/* IMAGE (fixed + safe CDN) */}
+                {/* HERO IMAGE (FIXED) */}
                 <div className="absolute inset-0 w-full h-full flex items-center justify-center pointer-events-none">
                     <img
                         className="w-80 sm:w-96 object-contain"
-                        src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e"
+                        src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&auto=format&fit=crop"
                         alt="hero"
                     />
                 </div>
 
             </aside>
 
-            {/* SECOND IMAGE */}
+            {/* SECOND IMAGE (FIXED) */}
             <div className="grid place-items-center sm:mt-20 mt-10">
                 <img
                     className="sm:w-96 w-48 object-contain"
-                    src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+                    src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop"
                     alt="secondary"
                 />
             </div>
