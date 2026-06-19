@@ -1,16 +1,15 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import UserContext from '../contex/UserContext'
 
 
 const profile = () => {
-   
-    const handleSubmit = () => {
+       
+    const { user } = userContext(UserContext)
+    
+    if(!user) return <div>Please Login</div>
+    return <div>Welcom {user.username} </div>
 
-    }
-  return (
-    <div>
-      
-    </div>
-  )
+  
 }
 
 export default profile
