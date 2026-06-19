@@ -5,14 +5,14 @@ import Card from "./components/Card"
 
 
 function App() {
-  const [themeMode, seThemeMode] = useState("light")
+  const [themeMode, setThemeMode] = useState("light")
 
   const lightTheme = () => {
     setThemeMode("light")
   }
 
   const darkTheme = () => {
-    seThemeMode("dark")
+    setThemeMode("dark")
   }
    // actual change in theme
 
