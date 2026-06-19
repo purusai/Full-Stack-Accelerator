@@ -1,4 +1,5 @@
 import './App.css'
+import Login from './components/Login'
 import UserContextProvider from './contex/UserContextProvider'
 
 function App() {
@@ -6,6 +7,8 @@ function App() {
   return (
     <UserContextProvider>
      <h1>React State Management with Context API</h1>
+     <Login />
+     
     </UserContextProvider>
   )
 }

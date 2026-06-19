@@ -25,6 +25,7 @@ const Login = () => {
       value={password}
       onChange={(e) => setUsername(e.target.value)}
       placeholder="password" />
+      <button onClick={handleSubmit}>Submit</button>
     </div>
   )
 }
