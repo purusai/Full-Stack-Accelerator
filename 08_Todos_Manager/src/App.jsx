@@ -5,9 +5,9 @@ import { TodoProvider } from './contexts/TodoContext'
 function App() {
 
   const [todos, setTodos] = useState([])
-  const addTodo = (todo) => {
-    setTodos((prev) => [...prev, {id: Date.now(), ...todo}] )
-  }
+  // const addTodo = (todo) => {
+  //   setTodos((prev) => [...prev, {id: Date.now(), ...todo}] )
+  // }
   // const updateTodo = (id, todo) => {
   //   setTodos((prev) => prev.map((prevTodo) => (prevTodo.id 
   //    === id ? todo : prevTodo )))
