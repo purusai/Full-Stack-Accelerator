@@ -20,9 +20,9 @@ export const TodoContext = createContext({
 
 
 
-// export const useTodo = () => {
-//     return useContext(TodoContext)
-// }
+export const useTodo = () => {
+    return useContext(TodoContext)
+}
 
 
 
