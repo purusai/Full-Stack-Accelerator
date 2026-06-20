@@ -8,10 +8,10 @@ function App() {
   const addTodo = (todo) => {
     setTodos((prev) => [...prev, {id: Date.now(), ...todo}] )
   }
-  const updateTodo = (id, todo) => {
-    setTodos((prev) => prev.map((prevTodo) => (prevTodo.id 
-     === id ? todo : prevTodo )))
-  }
+  // const updateTodo = (id, todo) => {
+  //   setTodos((prev) => prev.map((prevTodo) => (prevTodo.id 
+  //    === id ? todo : prevTodo )))
+  // }
 
   // const deleteTodo = (id) => {
   //   setTodos((prev) => prev.filter((todo) => todo.id !== id))
